@@ -1,0 +1,35 @@
+.place {
+  color: #212121;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.place-rating {
+  font-size: 30px;
+  padding: 7.5px;
+}
+
+.place-data {
+  border: 2.5px solid #212121;
+  width: 100%;
+  color: #212121;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FAFAFA;
+}
+
+.place-rate {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.place-coords-header {
+  display: flex;
+  align-items: center;
+}

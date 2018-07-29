@@ -1,0 +1,39 @@
+.Rate {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.total-rate {
+  margin-bottom: 50px;
+}
+
+.air-rate,
+.water-rate,
+.noise-rate,
+.emp-rate {
+  margin-bottom: 25px;
+}
+
+.air-rate,
+.water-rate,
+.noise-rate,
+.emp-rate,
+.earth-rate {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+  text-align: center;
+  padding: 5px;
+}
+
+.total-rate {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 30px;
+}

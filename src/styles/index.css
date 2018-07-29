@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 999px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+.App {
+  background-color: #ECEFF1;
+  color: #263238;
+}
+
+.MapContainer,
+.GradationContainer,
+.RateContainer {
+  height: 50vh;
+  min-height: 480px;
+}
+
+.MapContainer {
+  padding: 35px;
+  background-color: #263238;
+  color: #FAFAFA;
+}
+
+@media screen and (max-width: 999px) {
+  .MapContainer {
+    padding: 10px;
+  }
+}
+
+.MapHeader {
+  font-size: 36px;
+  justify-content: center;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 999px) {
+  .MapHeader {
+    font-size: 24px;
+  }
+}
+
+.DataContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GradationContainer,
+.RateContainer {
+  width: 50%;
+  padding: 25px;
+}
+
+.GradationContainer {
+  overflow: auto;
+  background-color: #607D8B;
+}
+
+@media screen and (max-width: 999px) {
+  .MapContainer,
+  .GradationContainer,
+  .RateContainer {
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .GradationContainer,
+  .RateContainer {
+    width: 100vw;
+    padding: 5px;
+  }
+}
